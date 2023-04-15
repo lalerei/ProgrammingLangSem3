@@ -35,7 +35,7 @@ double coordY = Convert.ToDouble(Console.ReadLine());
 double returnRes = returnCoord(coordX, coordY);
 Console.WriteLine($"Ваша координатная плоскость {returnRes}");
 */
-
+/*
 // Напишите программу, которая принимает на вход число (N) 
 // и выдаёт таблицу квадратов чисел от 1 до N. (e.g. 1-1 2-4 3-9 4-16)
 
@@ -51,11 +51,11 @@ void TablKvad (int N)
 Console.Write ("Введите значение  - ");
 int num = Convert.ToInt32(Console.ReadLine()); 
 TablKvad (num);
-
+*/
 
 // Напишите программу, которая принимает на вход координаты двух точек и 
 // находит расстояние между ними в 2D пространстве.
-/*
+
 double Gipot (double x1, double y1, double x2, double y2)
 {
   double distX = x2-x1;
@@ -79,5 +79,3 @@ double rez = Math.Round(Gipot(x1,y1,x2,y2),4);
 Console.Write ($"Расстояние между точками 1 и 2  составляет  - {rez}");
 // Console.Write ($"Расстояние между точками 1 и 2  составляет  - {Gipot (x1,y1,x2,y2)}");
 // double rez = Math.Round(Gipot(x1,y1,x2,y2),4);
-
-*/
