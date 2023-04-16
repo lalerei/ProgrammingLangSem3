@@ -19,7 +19,7 @@ ShowRange(quadrant);
 // Напишите программу, которая принимает на вход координаты точки (X и Y), 
 // и выдаёт номер четверти плоскости, в которой находится эта точка.
 
-int returnCoord (double x, double y)
+int returnRes(double x, double y)
 {
   if (x > 0 && y > 0) return 1;
   else if (x < 0 && y > 0) return 2;
@@ -32,7 +32,7 @@ double coordX = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Enter coord y: ");
 double coordY = Convert.ToDouble(Console.ReadLine());
 
-double returnRes = returnCoord(coordX, coordY);
+double returnRes = returnRes(coordX, coordY);
 Console.WriteLine($"Ваша координатная плоскость {returnRes}");
 
 /*
@@ -80,3 +80,5 @@ Console.Write ($"Расстояние между точками 1 и 2  сост
 // Console.Write ($"Расстояние между точками 1 и 2  составляет  - {Gipot (x1,y1,x2,y2)}");
 // double rez = Math.Round(Gipot(x1,y1,x2,y2),4);
 */
+
+// https://github.com/lalerei/ProgrammingLangSem3.git
